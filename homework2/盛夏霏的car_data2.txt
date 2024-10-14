@@ -9,9 +9,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -46,9 +46,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -83,9 +83,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -120,9 +120,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -157,9 +157,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -194,9 +194,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -231,9 +231,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -268,9 +268,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -305,9 +305,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
@@ -342,9 +342,9 @@ Max Range: 10 km
 AGX Model: 
 AI Performance: 6486393 TOPS
 CUDA Cores: 0
-Tensor Cores: 14548992
+Tensor Cores: 8192000
 Memory: 0 GB
-Storage: 164 GB
+Storage: 159 GB
 Camera Model: RealSense D435i
 Camera Type: D430
 RGB_Frame_Resolution: 1920x1080x
