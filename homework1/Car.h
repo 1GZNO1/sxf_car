@@ -2,6 +2,9 @@
 #define CAR_H
 
 #include <string>
+#include <iostream>
+#include <fstream>
+#include <vector>
 
 class Car {
 public:
@@ -14,9 +17,8 @@ public:
     void setDisplay(const std::string& displaySize);
     void setBattery(const std::string& battery);
     void assignStudent(const std::string& studentID, const std::string& studentName);
-    void saveToFile() const;
-    void loadFromFile(const std::string& fileName);
-    void displayInfo() const;
+    void print() const;
+    void save(std::ofstream& outFile) const;
     void setTire(const std::string& tireModel, const std::string& tireSize);
 
 private:

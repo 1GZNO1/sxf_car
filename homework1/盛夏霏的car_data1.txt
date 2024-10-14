@@ -1,0 +1,110 @@
+Car ID: cqusn10000
+Chassis ID: dp100
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20230
+Student Name: 学生1
+
+Car ID: cqusn10001
+Chassis ID: dp101
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20231
+Student Name: 学生2
+
+Car ID: cqusn10002
+Chassis ID: dp102
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20232
+Student Name: 学生3
+
+Car ID: cqusn10003
+Chassis ID: dp103
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20233
+Student Name: 学生4
+
+Car ID: cqusn10004
+Chassis ID: dp104
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20234
+Student Name: 学生5
+
+Car ID: cqusn10005
+Chassis ID: dp105
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20235
+Student Name: 学生6
+
+Car ID: cqusn10006
+Chassis ID: dp106
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20236
+Student Name: 学生7
+
+Car ID: cqusn10007
+Chassis ID: dp107
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20237
+Student Name: 学生8
+
+Car ID: cqusn10008
+Chassis ID: dp108
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20238
+Student Name: 学生9
+
+Car ID: cqusn10009
+Chassis ID: dp109
+AGX Model: AGX Xavier
+Camera Model: RealSense D435i
+Lidar Model: RS-Helios-16p
+Gyro Model: CH110
+Display Size: 11.6 inches
+Battery: 24V/15Ah, 24V供电, 充电时长2H
+Student ID: 20239
+Student Name: 学生10
+

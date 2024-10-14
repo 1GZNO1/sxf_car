@@ -1,7 +1,6 @@
-#include <iostream>
-#include <vector>
 #include "Car.h"
 #include "Student.h"
+#include <conio.h>
 
 using namespace std;
 
@@ -12,7 +11,7 @@ int main(){
 
     // 输入学生信息
     for (int i = 0; i < carCount; ++i) {
-        std::string carID = "cqusn" + std::to_string(i + 1000);  // 自定义编号
+        std::string carID = "cqusn" + std::to_string(i + 10000);  // 自定义编号
         Car car(carID);
 
         // 设置底盘信息
@@ -44,9 +43,13 @@ int main(){
         cars.push_back(car);
     }
 
-    // 保存到文件
-    for (const auto& car : cars) {
-        car.saveToFile();
+    // 保存所有小车信息到同一个文件
+    std::ofstream outFile("盛夏霏的car_data1.txt");
+    if (outFile.is_open()) {
+        for (const auto& car : cars) {
+            car.save(outFile); // 将小车信息保存到文件
+        }
+        outFile.close();
     }
 
     // 读取并显示信息
@@ -54,7 +57,7 @@ int main(){
     char command;
 
     while (true) {
-        cars[currentCarIndex].displayInfo();
+        cars[currentCarIndex].print();
         std::cout << "按'n'查看下一辆，按'p'查看上一辆，按'q'退出：";
         std::cin >> command;
 

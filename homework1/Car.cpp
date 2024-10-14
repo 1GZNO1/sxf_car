@@ -44,55 +44,38 @@ void Car::setTire(const string& tireModel, const string& tireSize){
     this -> tireSize = tireSize;
 }
 
-void Car::saveToFile() const {
-    std::ofstream outFile(carID + ".txt");
-    if (outFile.is_open()) {
-        outFile << "Car ID: " << carID << "\n"
-                << "Chassis ID: " << chassisID << "\n"
-                << "AGX Model: " << agxModel << "\n"
-                << "Camera Model: " << cameraModel << "\n"
-                << "Lidar Model: " << lidarModel << "\n"
-                << "Gyro Model: " << gyroModel << "\n"
-                << "Display Size: " << displaySize << "\n"
-                << "Battery: " << battery << "\n"
-                << "Assigned Student ID: " << studentID << "\n"
-                << "Assigned Student Name: " << studentName << "\n"
-                << "Tire Model: " << tireModel << "\n"
-                << "Tire Size: " << tireSize << "\n";
-        outFile.close();
+// 打印信息
+void Car::print() const {
+    std::cout << "Car ID: " << carID << std::endl;
+    std::cout << "Chassis ID: " << chassisID << std::endl;
+    std::cout << "AGX Model: " << agxModel << std::endl;
+    std::cout << "Camera Model: " << cameraModel << std::endl;
+    std::cout << "Lidar Model: " << lidarModel << std::endl;
+    std::cout << "Gyro Model: " << gyroModel << std::endl;
+    std::cout << "Display Size: " << displaySize << std::endl;
+    std::cout << "Battery: " << battery << std::endl;
+    for (const auto& tire : tireSize) {
+        std::cout << "Tire Size: " << tire << std::endl;
     }
+    std::cout << "Student ID: " << studentID << std::endl;
+    std::cout << "Student Name: " << studentName << std::endl;
+
 }
 
-void Car::loadFromFile(const std::string& fileName) {
-    std::ifstream inFile(fileName);
-    if (inFile.is_open()) {
-        std::getline(inFile, carID);
-        std::getline(inFile, chassisID);
-        std::getline(inFile, agxModel);
-        std::getline(inFile, cameraModel);
-        std::getline(inFile, lidarModel);
-        std::getline(inFile, gyroModel);
-        std::getline(inFile, displaySize);
-        std::getline(inFile, battery);
-        std::getline(inFile, studentID);
-        std::getline(inFile, studentName);
-        std::getline(inFile, tireModel);
-        std::getline(inFile, tireSize);
-        inFile.close();
+// 保存信息
+void Car::save(std::ofstream& outFile) const {
+    outFile << "Car ID: " << carID << std::endl;
+    outFile << "Chassis ID: " << chassisID << std::endl;
+    outFile << "AGX Model: " << agxModel << std::endl;
+    outFile << "Camera Model: " << cameraModel << std::endl;
+    outFile << "Lidar Model: " << lidarModel << std::endl;
+    outFile << "Gyro Model: " << gyroModel << std::endl;
+    outFile << "Display Size: " << displaySize << std::endl;
+    outFile << "Battery: " << battery << std::endl;
+    for (const auto& tire : tireSize) {
+        outFile << "Tire Size: " << tire << std::endl;
     }
-}
-
-void Car::displayInfo() const {
-    std::cout << "Car ID: " << carID << "\n"
-              << "Chassis ID: " << chassisID << "\n"
-              << "AGX Model: " << agxModel << "\n"
-              << "Camera Model: " << cameraModel << "\n"
-              << "Lidar Model: " << lidarModel << "\n"
-              << "Gyro Model: " << gyroModel << "\n"
-              << "Display Size: " << displaySize << "\n"
-              << "Battery: " << battery << "\n"
-              << "Assigned Student ID: " << studentID << "\n"
-              << "Assigned Student Name: " << studentName << "\n"
-              << "Tire Model: " << tireModel << "\n"
-              << "Tire Size: " << tireSize << "\n";
+    outFile << "Student ID: " << studentID << std::endl;
+    outFile << "Student Name: " << studentName << std::endl;
+    outFile << std::endl;  // 添加一个换行符
 }
